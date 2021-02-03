@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BEBA8D725CB44A500E66D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8D625CB44A500E66D7A /* AppDelegate.swift */; };
+		1BEBA8D925CB44A500E66D7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8D825CB44A500E66D7A /* GameViewController.swift */; };
+		1BEBA8DC25CB44A500E66D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8DA25CB44A500E66D7A /* Main.storyboard */; };
+		1BEBA8DF25CB44A500E66D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8DD25CB44A500E66D7A /* LaunchScreen.storyboard */; };
+		1BEBA8E425CB44A500E66D7A /* CookieClicker.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BEBA8E325CB44A500E66D7A /* CookieClicker.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BEBA8EA25CB44A500E66D7A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8E825CB44A500E66D7A /* Interface.storyboard */; };
+		1BEBA8F125CB44A500E66D7A /* CookieClicker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BEBA8F025CB44A500E66D7A /* CookieClicker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BEBA8F625CB44A500E66D7A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8F525CB44A500E66D7A /* InterfaceController.swift */; };
+		1BEBA8F825CB44A500E66D7A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8F725CB44A500E66D7A /* ExtensionDelegate.swift */; };
+		1BEBA90125CB44A500E66D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA90025CB44A500E66D7A /* AppDelegate.swift */; };
+		1BEBA90325CB44A500E66D7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA90225CB44A500E66D7A /* GameViewController.swift */; };
+		1BEBA90625CB44A500E66D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA90425CB44A500E66D7A /* Main.storyboard */; };
+		1BEBA90925CB44A500E66D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA90725CB44A500E66D7A /* LaunchScreen.storyboard */; };
+		1BEBA91225CB44A500E66D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA91125CB44A500E66D7A /* AppDelegate.swift */; };
+		1BEBA91425CB44A500E66D7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA91325CB44A500E66D7A /* GameViewController.swift */; };
+		1BEBA91725CB44A500E66D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA91525CB44A500E66D7A /* Main.storyboard */; };
+		1BEBA92125CB44A500E66D7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
+		1BEBA92325CB44A500E66D7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
+		1BEBA92425CB44A500E66D7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
+		1BEBA92525CB44A500E66D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */; };
+		1BEBA92725CB44A500E66D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */; };
+		1BEBA92825CB44A500E66D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */; };
+		1BEBA95125CB463900E66D7A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA95025CB463900E66D7A /* Main.swift */; };
+		1BEBA95D25CB463C00E66D7A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA95025CB463900E66D7A /* Main.swift */; };
+		1BEBA95E25CB463C00E66D7A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA95025CB463900E66D7A /* Main.swift */; };
+		1BEBA96525CB468300E66D7A /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96425CB468300E66D7A /* SaveData.swift */; };
+		1BEBA96C25CB46A600E66D7A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96B25CB46A600E66D7A /* Images.swift */; };
+		1BEBA98125CB46BA00E66D7A /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96425CB468300E66D7A /* SaveData.swift */; };
+		1BEBA98725CB46BB00E66D7A /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96425CB468300E66D7A /* SaveData.swift */; };
+		1BEBA98D25CB46BC00E66D7A /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96425CB468300E66D7A /* SaveData.swift */; };
+		1BEBA99325CB46BE00E66D7A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96B25CB46A600E66D7A /* Images.swift */; };
+		1BEBA99925CB46BF00E66D7A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96B25CB46A600E66D7A /* Images.swift */; };
+		1BEBA99F25CB46BF00E66D7A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA96B25CB46A600E66D7A /* Images.swift */; };
+		1BEBA9BA25CB57A300E66D7A /* EditSKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA9B925CB57A300E66D7A /* EditSKNode.swift */; };
+		1BEBA9D025CB588C00E66D7A /* Hand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA9CF25CB588B00E66D7A /* Hand.ttf */; };
+		1BEBA9D125CB588C00E66D7A /* Hand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA9CF25CB588B00E66D7A /* Hand.ttf */; };
+		1BEBA9D225CB588C00E66D7A /* Hand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA9CF25CB588B00E66D7A /* Hand.ttf */; };
+		1BEBA9D325CB588C00E66D7A /* Hand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA9CF25CB588B00E66D7A /* Hand.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BEBA8E525CB44A500E66D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEBA8C625CB44A300E66D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEBA8E225CB44A500E66D7A;
+			remoteInfo = "CookieClicker watchOS App";
+		};
+		1BEBA8F225CB44A500E66D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEBA8C625CB44A300E66D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEBA8EF25CB44A500E66D7A;
+			remoteInfo = "CookieClicker watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BEBA92E25CB44A500E66D7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1BEBA8F125CB44A500E66D7A /* CookieClicker Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA93225CB44A500E66D7A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1BEBA8E425CB44A500E66D7A /* CookieClicker.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BEBA8CD25CB44A400E66D7A /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BEBA8D325CB44A500E66D7A /* CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBA8D625CB44A500E66D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BEBA8D825CB44A500E66D7A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1BEBA8DB25CB44A500E66D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEBA8DE25CB44A500E66D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BEBA8E025CB44A500E66D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEBA8E325CB44A500E66D7A /* CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBA8E925CB44A500E66D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1BEBA8EB25CB44A500E66D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEBA8F025CB44A500E66D7A /* CookieClicker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CookieClicker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBA8F525CB44A500E66D7A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1BEBA8F725CB44A500E66D7A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1BEBA8F925CB44A500E66D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEBA8FE25CB44A500E66D7A /* CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBA90025CB44A500E66D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BEBA90225CB44A500E66D7A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1BEBA90525CB44A500E66D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEBA90825CB44A500E66D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BEBA90A25CB44A500E66D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEBA90F25CB44A500E66D7A /* CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEBA91125CB44A500E66D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BEBA91325CB44A500E66D7A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1BEBA91625CB44A500E66D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEBA91825CB44A500E66D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEBA91925CB44A500E66D7A /* CookieClicker_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CookieClicker_macOS.entitlements; sourceTree = "<group>"; };
+		1BEBA95025CB463900E66D7A /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		1BEBA96425CB468300E66D7A /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		1BEBA96B25CB46A600E66D7A /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		1BEBA9B925CB57A300E66D7A /* EditSKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSKNode.swift; sourceTree = "<group>"; };
+		1BEBA9CF25CB588B00E66D7A /* Hand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hand.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BEBA8D025CB44A500E66D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8ED25CB44A500E66D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8FB25CB44A500E66D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA90C25CB44A500E66D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BEBA8C525CB44A300E66D7A = {
+			isa = PBXGroup;
+			children = (
+				1BEBA8CA25CB44A300E66D7A /* CookieClicker Shared */,
+				1BEBA8D525CB44A500E66D7A /* CookieClicker iOS */,
+				1BEBA8E725CB44A500E66D7A /* CookieClicker watchOS App */,
+				1BEBA8F425CB44A500E66D7A /* CookieClicker watchOS App Extension */,
+				1BEBA8FF25CB44A500E66D7A /* CookieClicker tvOS */,
+				1BEBA91025CB44A500E66D7A /* CookieClicker macOS */,
+				1BEBA8D425CB44A500E66D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BEBA8CA25CB44A300E66D7A /* CookieClicker Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA9CF25CB588B00E66D7A /* Hand.ttf */,
+				1BEBA8CD25CB44A400E66D7A /* Controller.swift */,
+				1BEBA9B925CB57A300E66D7A /* EditSKNode.swift */,
+				1BEBA95025CB463900E66D7A /* Main.swift */,
+				1BEBA96425CB468300E66D7A /* SaveData.swift */,
+				1BEBA96B25CB46A600E66D7A /* Images.swift */,
+				1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */,
+			);
+			path = "CookieClicker Shared";
+			sourceTree = "<group>";
+		};
+		1BEBA8D425CB44A500E66D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA8D325CB44A500E66D7A /* CookieClicker.app */,
+				1BEBA8E325CB44A500E66D7A /* CookieClicker.app */,
+				1BEBA8F025CB44A500E66D7A /* CookieClicker Extension.appex */,
+				1BEBA8FE25CB44A500E66D7A /* CookieClicker.app */,
+				1BEBA90F25CB44A500E66D7A /* CookieClicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEBA8D525CB44A500E66D7A /* CookieClicker iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA8D625CB44A500E66D7A /* AppDelegate.swift */,
+				1BEBA8D825CB44A500E66D7A /* GameViewController.swift */,
+				1BEBA8DA25CB44A500E66D7A /* Main.storyboard */,
+				1BEBA8DD25CB44A500E66D7A /* LaunchScreen.storyboard */,
+				1BEBA8E025CB44A500E66D7A /* Info.plist */,
+			);
+			path = "CookieClicker iOS";
+			sourceTree = "<group>";
+		};
+		1BEBA8E725CB44A500E66D7A /* CookieClicker watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA8E825CB44A500E66D7A /* Interface.storyboard */,
+				1BEBA8EB25CB44A500E66D7A /* Info.plist */,
+			);
+			path = "CookieClicker watchOS App";
+			sourceTree = "<group>";
+		};
+		1BEBA8F425CB44A500E66D7A /* CookieClicker watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA8F525CB44A500E66D7A /* InterfaceController.swift */,
+				1BEBA8F725CB44A500E66D7A /* ExtensionDelegate.swift */,
+				1BEBA8F925CB44A500E66D7A /* Info.plist */,
+			);
+			path = "CookieClicker watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		1BEBA8FF25CB44A500E66D7A /* CookieClicker tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA90025CB44A500E66D7A /* AppDelegate.swift */,
+				1BEBA90225CB44A500E66D7A /* GameViewController.swift */,
+				1BEBA90425CB44A500E66D7A /* Main.storyboard */,
+				1BEBA90725CB44A500E66D7A /* LaunchScreen.storyboard */,
+				1BEBA90A25CB44A500E66D7A /* Info.plist */,
+			);
+			path = "CookieClicker tvOS";
+			sourceTree = "<group>";
+		};
+		1BEBA91025CB44A500E66D7A /* CookieClicker macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBA91125CB44A500E66D7A /* AppDelegate.swift */,
+				1BEBA91325CB44A500E66D7A /* GameViewController.swift */,
+				1BEBA91525CB44A500E66D7A /* Main.storyboard */,
+				1BEBA91825CB44A500E66D7A /* Info.plist */,
+				1BEBA91925CB44A500E66D7A /* CookieClicker_macOS.entitlements */,
+			);
+			path = "CookieClicker macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BEBA8D225CB44A500E66D7A /* CookieClicker iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBA93325CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker iOS" */;
+			buildPhases = (
+				1BEBA8CF25CB44A500E66D7A /* Sources */,
+				1BEBA8D025CB44A500E66D7A /* Frameworks */,
+				1BEBA8D125CB44A500E66D7A /* Resources */,
+				1BEBA93225CB44A500E66D7A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEBA8E625CB44A500E66D7A /* PBXTargetDependency */,
+			);
+			name = "CookieClicker iOS";
+			productName = "CookieClicker iOS";
+			productReference = 1BEBA8D325CB44A500E66D7A /* CookieClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BEBA8E225CB44A500E66D7A /* CookieClicker watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBA92F25CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker watchOS App" */;
+			buildPhases = (
+				1BEBA8E125CB44A500E66D7A /* Resources */,
+				1BEBA92E25CB44A500E66D7A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEBA8F325CB44A500E66D7A /* PBXTargetDependency */,
+			);
+			name = "CookieClicker watchOS App";
+			productName = "CookieClicker watchOS App";
+			productReference = 1BEBA8E325CB44A500E66D7A /* CookieClicker.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1BEBA8EF25CB44A500E66D7A /* CookieClicker watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBA92B25CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker watchOS App Extension" */;
+			buildPhases = (
+				1BEBA8EC25CB44A500E66D7A /* Sources */,
+				1BEBA8ED25CB44A500E66D7A /* Frameworks */,
+				1BEBA8EE25CB44A500E66D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CookieClicker watchOS App Extension";
+			productName = "CookieClicker watchOS App Extension";
+			productReference = 1BEBA8F025CB44A500E66D7A /* CookieClicker Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1BEBA8FD25CB44A500E66D7A /* CookieClicker tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBA93625CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker tvOS" */;
+			buildPhases = (
+				1BEBA8FA25CB44A500E66D7A /* Sources */,
+				1BEBA8FB25CB44A500E66D7A /* Frameworks */,
+				1BEBA8FC25CB44A500E66D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CookieClicker tvOS";
+			productName = "CookieClicker tvOS";
+			productReference = 1BEBA8FE25CB44A500E66D7A /* CookieClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BEBA90E25CB44A500E66D7A /* CookieClicker macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEBA93925CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker macOS" */;
+			buildPhases = (
+				1BEBA90B25CB44A500E66D7A /* Sources */,
+				1BEBA90C25CB44A500E66D7A /* Frameworks */,
+				1BEBA90D25CB44A500E66D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CookieClicker macOS";
+			productName = "CookieClicker macOS";
+			productReference = 1BEBA90F25CB44A500E66D7A /* CookieClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BEBA8C625CB44A300E66D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1BEBA8D225CB44A500E66D7A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1BEBA8E225CB44A500E66D7A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1BEBA8EF25CB44A500E66D7A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1BEBA8FD25CB44A500E66D7A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1BEBA90E25CB44A500E66D7A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 1BEBA8C925CB44A300E66D7A /* Build configuration list for PBXProject "CookieClicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BEBA8C525CB44A300E66D7A;
+			productRefGroup = 1BEBA8D425CB44A500E66D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BEBA8D225CB44A500E66D7A /* CookieClicker iOS */,
+				1BEBA8E225CB44A500E66D7A /* CookieClicker watchOS App */,
+				1BEBA8EF25CB44A500E66D7A /* CookieClicker watchOS App Extension */,
+				1BEBA8FD25CB44A500E66D7A /* CookieClicker tvOS */,
+				1BEBA90E25CB44A500E66D7A /* CookieClicker macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BEBA8D125CB44A500E66D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA8DC25CB44A500E66D7A /* Main.storyboard in Resources */,
+				1BEBA8DF25CB44A500E66D7A /* LaunchScreen.storyboard in Resources */,
+				1BEBA92525CB44A500E66D7A /* Assets.xcassets in Resources */,
+				1BEBA9D025CB588C00E66D7A /* Hand.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8E125CB44A500E66D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA8EA25CB44A500E66D7A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8EE25CB44A500E66D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA9D125CB588C00E66D7A /* Hand.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8FC25CB44A500E66D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA90625CB44A500E66D7A /* Main.storyboard in Resources */,
+				1BEBA90925CB44A500E66D7A /* LaunchScreen.storyboard in Resources */,
+				1BEBA92725CB44A500E66D7A /* Assets.xcassets in Resources */,
+				1BEBA9D225CB588C00E66D7A /* Hand.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA90D25CB44A500E66D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA9D325CB588C00E66D7A /* Hand.ttf in Resources */,
+				1BEBA91725CB44A500E66D7A /* Main.storyboard in Resources */,
+				1BEBA92825CB44A500E66D7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BEBA8CF25CB44A500E66D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA92125CB44A500E66D7A /* Controller.swift in Sources */,
+				1BEBA96C25CB46A600E66D7A /* Images.swift in Sources */,
+				1BEBA9BA25CB57A300E66D7A /* EditSKNode.swift in Sources */,
+				1BEBA8D925CB44A500E66D7A /* GameViewController.swift in Sources */,
+				1BEBA95125CB463900E66D7A /* Main.swift in Sources */,
+				1BEBA8D725CB44A500E66D7A /* AppDelegate.swift in Sources */,
+				1BEBA96525CB468300E66D7A /* SaveData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8EC25CB44A500E66D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA99F25CB46BF00E66D7A /* Images.swift in Sources */,
+				1BEBA8F825CB44A500E66D7A /* ExtensionDelegate.swift in Sources */,
+				1BEBA8F625CB44A500E66D7A /* InterfaceController.swift in Sources */,
+				1BEBA98D25CB46BC00E66D7A /* SaveData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA8FA25CB44A500E66D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA92325CB44A500E66D7A /* Controller.swift in Sources */,
+				1BEBA99925CB46BF00E66D7A /* Images.swift in Sources */,
+				1BEBA90325CB44A500E66D7A /* GameViewController.swift in Sources */,
+				1BEBA95D25CB463C00E66D7A /* Main.swift in Sources */,
+				1BEBA90125CB44A500E66D7A /* AppDelegate.swift in Sources */,
+				1BEBA98725CB46BB00E66D7A /* SaveData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEBA90B25CB44A500E66D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEBA92425CB44A500E66D7A /* Controller.swift in Sources */,
+				1BEBA99325CB46BE00E66D7A /* Images.swift in Sources */,
+				1BEBA91425CB44A500E66D7A /* GameViewController.swift in Sources */,
+				1BEBA95E25CB463C00E66D7A /* Main.swift in Sources */,
+				1BEBA91225CB44A500E66D7A /* AppDelegate.swift in Sources */,
+				1BEBA98125CB46BA00E66D7A /* SaveData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BEBA8E625CB44A500E66D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEBA8E225CB44A500E66D7A /* CookieClicker watchOS App */;
+			targetProxy = 1BEBA8E525CB44A500E66D7A /* PBXContainerItemProxy */;
+		};
+		1BEBA8F325CB44A500E66D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEBA8EF25CB44A500E66D7A /* CookieClicker watchOS App Extension */;
+			targetProxy = 1BEBA8F225CB44A500E66D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BEBA8DA25CB44A500E66D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBA8DB25CB44A500E66D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEBA8DD25CB44A500E66D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBA8DE25CB44A500E66D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEBA8E825CB44A500E66D7A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBA8E925CB44A500E66D7A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEBA90425CB44A500E66D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBA90525CB44A500E66D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEBA90725CB44A500E66D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBA90825CB44A500E66D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEBA91525CB44A500E66D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEBA91625CB44A500E66D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BEBA92925CB44A500E66D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BEBA92A25CB44A500E66D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1BEBA92C25CB44A500E66D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = "CookieClicker watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "CookieClicker Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		1BEBA92D25CB44A500E66D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = "CookieClicker watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "CookieClicker Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		1BEBA93025CB44A500E66D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				IBSC_MODULE = CookieClicker_Extension;
+				INFOPLIST_FILE = "CookieClicker watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker.watchkitapp;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		1BEBA93125CB44A500E66D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				IBSC_MODULE = CookieClicker_Extension;
+				INFOPLIST_FILE = "CookieClicker watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker.watchkitapp;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		1BEBA93425CB44A500E66D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = "CookieClicker iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BEBA93525CB44A500E66D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = "CookieClicker iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BEBA93725CB44A500E66D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = "CookieClicker tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.2;
+			};
+			name = Debug;
+		};
+		1BEBA93825CB44A500E66D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				INFOPLIST_FILE = "CookieClicker tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BEBA93A25CB44A500E66D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CookieClicker macOS/CookieClicker_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "CookieClicker macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1BEBA93B25CB44A500E66D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CookieClicker macOS/CookieClicker_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R3PU6JKY2A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "CookieClicker macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubermaze.CookieClicker;
+				PRODUCT_NAME = CookieClicker;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BEBA8C925CB44A300E66D7A /* Build configuration list for PBXProject "CookieClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBA92925CB44A500E66D7A /* Debug */,
+				1BEBA92A25CB44A500E66D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBA92B25CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBA92C25CB44A500E66D7A /* Debug */,
+				1BEBA92D25CB44A500E66D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBA92F25CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBA93025CB44A500E66D7A /* Debug */,
+				1BEBA93125CB44A500E66D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBA93325CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBA93425CB44A500E66D7A /* Debug */,
+				1BEBA93525CB44A500E66D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBA93625CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBA93725CB44A500E66D7A /* Debug */,
+				1BEBA93825CB44A500E66D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEBA93925CB44A500E66D7A /* Build configuration list for PBXNativeTarget "CookieClicker macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEBA93A25CB44A500E66D7A /* Debug */,
+				1BEBA93B25CB44A500E66D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BEBA8C625CB44A300E66D7A /* Project object */;
+}
