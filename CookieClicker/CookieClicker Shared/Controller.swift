@@ -313,20 +313,20 @@ class Scene: SKScene {
         //musical(.begin)
         backgroundColor = .white
         foo.async { [self] in
-            loading()
-            anchorPoint = .zero
-            backgroundColor = .white
+            self.loading()
+            self.anchorPoint = .zero
+            self.backgroundColor = .white
             
-            addChild(host.this)
-            addChild(host.that)
+            self.addChild(self.host.this)
+            self.addChild(self.host.that)
             
-            host.this.name = "THIS"
-            host.that.name = "THAT"
+            self.host.this.name = "THIS"
+            self.host.that.name = "THAT"
             
-            host.begin()
+            self.host.begin()
             
-            previouslyHosted["\(type(of: host))"] = host
-            finishedLoading()
+            self.previouslyHosted["\(type(of: self.host))"] = self.host
+            self.finishedLoading()
         }
     }
     
@@ -489,7 +489,7 @@ extension Hostable {
         scene.loading()
         
         let foo = DispatchQueue.init(label: "hahaha")
-        foo.async {
+        foo.async { [self] in
             
             //if "\(type(of: self))" == "\(new)" {
               //  scene.host.reset()
@@ -504,10 +504,10 @@ extension Hostable {
                 SaveData.currentScene = "\(new)"
             }
             
-            that.run(.wait(forDuration: 0.2)) {
+            self.that.run(.wait(forDuration: 0.2)) {
                 self.that.removeFromParent()
             }
-            this.run(.wait(forDuration: 0.2)) {
+            self.this.run(.wait(forDuration: 0.2)) {
                 self.that.removeFromParent()
                 self.this.removeFromParent()
             }

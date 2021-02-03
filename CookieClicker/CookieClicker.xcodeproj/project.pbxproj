@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7FD7DB25CB611100E795BB /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
+		1B7FD7DC25CB611100E795BB /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
 		1BEBA8D725CB44A500E66D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8D625CB44A500E66D7A /* AppDelegate.swift */; };
 		1BEBA8D925CB44A500E66D7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8D825CB44A500E66D7A /* GameViewController.swift */; };
 		1BEBA8DC25CB44A500E66D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8DA25CB44A500E66D7A /* Main.storyboard */; };
@@ -24,8 +26,6 @@
 		1BEBA91425CB44A500E66D7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA91325CB44A500E66D7A /* GameViewController.swift */; };
 		1BEBA91725CB44A500E66D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA91525CB44A500E66D7A /* Main.storyboard */; };
 		1BEBA92125CB44A500E66D7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
-		1BEBA92325CB44A500E66D7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
-		1BEBA92425CB44A500E66D7A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CD25CB44A400E66D7A /* Controller.swift */; };
 		1BEBA92525CB44A500E66D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */; };
 		1BEBA92725CB44A500E66D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */; };
 		1BEBA92825CB44A500E66D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBA8CE25CB44A500E66D7A /* Assets.xcassets */; };
@@ -469,10 +469,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEBA92325CB44A500E66D7A /* Controller.swift in Sources */,
 				1BEBA99925CB46BF00E66D7A /* Images.swift in Sources */,
 				1BEBA90325CB44A500E66D7A /* GameViewController.swift in Sources */,
 				1BEBA95D25CB463C00E66D7A /* Main.swift in Sources */,
+				1B7FD7DB25CB611100E795BB /* Controller.swift in Sources */,
 				1BEBA90125CB44A500E66D7A /* AppDelegate.swift in Sources */,
 				1BEBA98725CB46BB00E66D7A /* SaveData.swift in Sources */,
 			);
@@ -482,10 +482,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEBA92425CB44A500E66D7A /* Controller.swift in Sources */,
 				1BEBA99325CB46BE00E66D7A /* Images.swift in Sources */,
 				1BEBA91425CB44A500E66D7A /* GameViewController.swift in Sources */,
 				1BEBA95E25CB463C00E66D7A /* Main.swift in Sources */,
+				1B7FD7DC25CB611100E795BB /* Controller.swift in Sources */,
 				1BEBA91225CB44A500E66D7A /* AppDelegate.swift in Sources */,
 				1BEBA98125CB46BA00E66D7A /* SaveData.swift in Sources */,
 			);

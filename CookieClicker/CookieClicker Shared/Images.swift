@@ -9,6 +9,7 @@ import Foundation
 
 enum ImageNames: String {
     case cookie = "Cookie"
+    case shop = "shop"
 }
 
 enum FontNames: String {
